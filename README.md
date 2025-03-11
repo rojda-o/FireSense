@@ -1,6 +1,7 @@
 # FireSense: IoT Tabanlı Akıllı Alev Algılama ve Uyarı Sistemi
 
 ## 1. Proje Konusu 
+selam
 ## 2. Proje Kısa Özeti
 ## 3. Proje Gereksinimleri
 ## 4. Projeyi Çalıştırma 
