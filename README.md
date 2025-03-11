@@ -24,5 +24,5 @@ Projeyi çalıştırmak için aşağıdaki bileşenlere ihtiyaç vardır:
 6. ESP8266'yı Wi-Fi ağına bağlayın ve Telegram botu üzerinden bildirimleri test edin.
 ## 5. Proje Lisans Bilgileri
 ## 6. Proje Anahtar Kelimeleri
-ATEŞ ALGILAMA, ESP8266, TELEGRAM, LED, SENSÖR, ERKEN UYARI, İNTERNET OF THINGS (IoT)
+IoT, ESP8266, Fire Detection, IR Sensor, Telegram API, IoT, Security System
 
