@@ -7,14 +7,23 @@ Bu proje, IR ateş algılama sensörü ile alev tespit ederek LED veya alarm ile
 - **ESP8266** kullanarak Wi-Fi bağlantısı sağlanır.  
 - **IR Ateş Algılama Sensörü** alevi algılar ve ESP8266’ya sinyal gönderir.  
 - **LED veya Alarm**, fiziksel uyarı sağlar.  
-- **Telegram API** ile belirlenen kullanıcıya "Flame Detected!" mesajı gönderilir.  
+- **Telegram API** ile belirlenen kullanıcıya "Flame Detected!" mesajı gönderilir.
+
+  <img src="OneriRapor/Figures/genel_sema.jpeg" width="500" height="300">
+
+  
+  <img src="OneriRapor/Figures/telegram_sema.jpeg" width="500" height="300">
+
+
 ## 3. Proje Gereksinimleri
 Projeyi çalıştırmak için aşağıdaki bileşenlere ihtiyaç vardır:  
 - **IR Ateş Algılama Sensörü** (Alev tespiti)  
 - **LED / Alarm** (Fiziksel uyarı)  
 - **ESP8266** (Wi-Fi bağlantısı)  
 - **Güç Kaynağı ve Bağlantı Kabloları**  
-- **Breadboard**  
+- **Breadboard**
+<img src="OneriRapor/Figures/devre2.jpeg" width="500" height="300">
+
 ## 4. Projeyi Çalıştırma 
 1. Arduino IDE'yi açın ve ESP8266 için uygun kütüphaneleri yükleyin.
 2. IR sensörünü ESP8266'ya bağlayın.
@@ -22,6 +31,9 @@ Projeyi çalıştırmak için aşağıdaki bileşenlere ihtiyaç vardır:
 4. Telegram botu oluşturun ve API token'ını alın.
 5. Proje kodunu Arduino IDE'ye yükleyin.
 6. ESP8266'yı Wi-Fi ağına bağlayın ve Telegram botu üzerinden bildirimleri test edin.
+
+   <img src="OneriRapor/Figures/devre1.jpeg" width="500" height="300">
+
 ## 5. Proje Lisans Bilgileri
 ## 6. Proje Anahtar Kelimeleri
 IoT, ESP8266, Fire Detection, IR Sensor, Telegram API, IoT, Security System
