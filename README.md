@@ -11,7 +11,8 @@ Bu proje, IR ateş algılama sensörü ile alev tespit ederek LED veya alarm ile
 
   <img src="OneriRapor/Figures/genel_sema.jpeg" width="500" height="300">
 
-  
+<p>ESP8266 ve IR alev sensörü kullanarak yangınları tespit eden ve Wi-Fi üzerinden anlık bildirim gönderen akıllı bir sistemdir. Alev algılandığında, buzzer ve LED ile uyarı verilir ve Telegram botu aracılığıyla kullanıcılara "Flame Detected" mesajı gönderilir.</p>
+
   <img src="OneriRapor/Figures/telegram_sema.jpeg" width="500" height="300">
 
 
