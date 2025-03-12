@@ -30,7 +30,7 @@ Bu proje, bir ateş algılama sensörü ile yangın tespiti sağlayarak, alev al
 
 ## Kaynak Planlaması
 
-- **Görev Alacak Kişiler**: 2 yazılım geliştirici, 1 donanım uzmanı
+- **Görev Alacak Kişiler**: 2 yazılım geliştirici, 1 donanım geliştirici
 - **Ekipmanlar**: IR Sensör, ESP8266, LED, Bağlantı kabloları
 - **Yazılımlar**: Arduino IDE, Telegram API
 
