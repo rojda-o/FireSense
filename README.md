@@ -36,6 +36,8 @@ Projeyi çalıştırmak için aşağıdaki bileşenlere ihtiyaç vardır:
    <img src="OneriRapor/Figures/devre1.jpeg" width="500" height="300">
 
 ## 5. Proje Lisans Bilgileri
+Bu proje, MIT Lisansı altında sunulmaktadır. Daha fazla bilgi için [LICENSE](LICENSE.md)
+ dosyasına göz atabilirsiniz.
 ## 6. Proje Anahtar Kelimeleri
 IoT, ESP8266, Fire Detection, IR Sensor, Telegram API, IoT, Security System
 
