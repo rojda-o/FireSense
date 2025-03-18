@@ -21,7 +21,7 @@ Projeyi çalıştırmak için aşağıdaki bileşenlere ihtiyaç vardır:
 - **IR Ateş Algılama Sensörü** (Alev tespiti)  
 - **LED / Alarm** (Fiziksel uyarı)  
 - **ESP8266** (Wi-Fi bağlantısı)  
-- **Güç Kaynağı ve Bağlantı Kabloları**  
+- **Bağlantı Kabloları**  
 - **Breadboard**
 <img src="OneriRapor/Figures/devre2.jpeg" width="500" height="300">
 
