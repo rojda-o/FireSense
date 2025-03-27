@@ -7,8 +7,8 @@ Bu proje, bir ateş algılama sensörü ile yangın tespiti sağlayarak, alev al
 - Telegram botu ile kullanıcıyı dijital ortamda bilgilendirmek.
 - Fiziksel LED/Alarm sistemiyle kullanıcıyı hızlı bir şekilde uyarmak.
 - Düşük maliyetli ve uygulanabilir bir çözüm oluşturmak.
-## Tahmini Zaman Çizelgesi
-### **Tahmini Zaman Çizelgesi (Mart - Haziran 2025)**  
+
+## Tahmini Zaman Çizelgesi  
 
 | **Tarih Aralığı**       | **Görev**                                                    |
 |-------------------------|-------------------------------------------------------------|
@@ -30,14 +30,43 @@ Bu proje, bir ateş algılama sensörü ile yangın tespiti sağlayarak, alev al
 
 ## Kaynak Planlaması
 
-- **Görev Alacak Kişiler**: 2 yazılım geliştirici, 1 donanım geliştirici
-- **Ekipmanlar**: IR Sensör, ESP8266, LED, Bağlantı kabloları
-- **Yazılımlar**: Arduino IDE, Telegram API
+Proje Ekibi:
+ * Melike Badem
+ * Rojda Özevli
+
+ Görev dağılımı:
+ * Projenin her adımında birlikte devam edilecektir.
+ 
+ Ekipmanlar:
+
+ * ESP82 Geliştirme Kartı
+ * USB Bağlantı Kablosu
+ * Bilgisayar (Kod geliştirme ve veri analizi için)
+ * LED, Buzzer, Direnç, Kablo
+ * IR Sensör
+ * Breadboard
+
+ Yazılımlar:
+
+ * Arduino IDE
+ * C++
+
+ Proje Maliyeti:
+ 
+ * ESP8266 Kartı: 220₺
+ * IR Sensör: 24₺
+ * Diğer devre elemanları: 100₺
 
 ## Risk Analizi
 
-- **Wi-Fi Bağlantı Sorunları**: Wi-Fi sinyalinin zayıf olduğu durumlarda sistemin çalışmaması. Çözüm: Wi-Fi sinyali güçlü bir ortamda test edilmesi.
-- **Telegram Bot API Hatası**: Botun çalışmaması. Çözüm: API token'ı kontrol edilip, doğru ayarların yapıldığından emin olunması.
+| Risk                          | Çözüm  |
+|----------------------------------|---------|
+| ESP8266'nın uyumsuzluk veya bağlantı sorunları yaşaması | Alternatif donanımlar test edilebilir, hata ayıklama yapılabilir. | 
+| Kalibrasyon sorunları | Sensörlerin doğruluğu test edilmeli, gerektiğinde kalibrasyon ayarları güncellenmelidir. |
+| Versiyon uyumsuzlukları | Kullanılan kütüphanelerin sürümleri kontrol edilmeli, uyumlu versiyonlar tercih edilmelidir. |
+| Zaman yönetimi sorunları | Görevler zamanında tamamlanmalı, ekip içi koordinasyon sağlanmalıdır. |
+| Donanım arızaları | Yedek bileşenler bulundurulmalı, arıza tespit süreçleri belirlenmelidir. |
+| Telegram bildirim gecikmeleri | Sunucu ve internet bağlantısı test edilmeli, alternatif haberleşme yöntemleri planlanmalıdır. |
 
 ## Ticari Potansiyel
 
