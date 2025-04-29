@@ -34,7 +34,8 @@ Projenin bu aşamasına kadar aşağıdaki yöntem ve teknolojiler kullanılmı�
 - Arduino kodları yazılarak alev algılandığında LED ve buzzer’ın çalışması sağlandı.
 - Proje devresi başarıyla test edildi.
   
-![Devre Görseli](Figure/devre_foto1.jpg)
+
+<img src="Figures/devre.jpeg" alt="Devre Görseli" width="400" height="450">
 > Şekil 1: Kurulan IR sensörlü erken uyarı sistemi devresi.
 
 ## 5. Elde Edilen Sonuçlar
