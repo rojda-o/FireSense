@@ -24,7 +24,7 @@ Projenin bu aşamasına kadar aşağıdaki yöntem ve teknolojiler kullanılmı�
 
 ### Metodolojik Yaklaşımlar:
 - **Modüler Tasarım:** Sistem, fiziksel ve dijital uyarı bölümleri olarak iki ana modüle ayrılmıştır. Böylece her bir bölüm bağımsız olarak test edilebilmiş ve hatalar kolaylıkla izole edilmiştir.
-- **Test ve Doğrulama:** IR sensörün doğruluğu çeşitli ışık koşullarında test edilmiştir. Fiziksel uyarılar ayrı ayrı doğrulanarak sistemin güvenilirliği artırılmıştır.
+- **Test ve Doğrulama:** IR sensörün doğruluğu çeşitli koşullarda test edilmiştir. Fiziksel uyarılar ayrı ayrı doğrulanarak sistemin güvenilirliği artırılmıştır.
 - **Adım Adım Geliştirme:** Proje, önce fiziksel devre kurulumu ve testleri ile başlatılmış, ardından yazılım geliştirme ve entegrasyon aşamalarına geçilmiştir. Bu yöntem, hata ayıklamayı kolaylaştırmıştır.
 
 
@@ -52,7 +52,7 @@ Projenin bu aşamasına kadar aşağıdaki yöntem ve teknolojiler kullanılmı�
 - ESP8266 üzerinden Telegram botuna başarılı şekilde bildirim gönderilmesi sağlanacak.
 - Proje kutulanarak taşınabilir hale getirilecek.
 - Tüm bileşenler optimize edilerek nihai rapor ve sunum hazırlanacak.
-- Güç kaynağı bağımsız çalışabilirlik, ilerleyen aşamalarda harici batarya kullanılarak test edilecektir.
+- Güç kaynağı ile bağımsız çalışabilirlik, ilerleyen aşamalarda harici batarya kullanılarak test edilecektir.
 
-Güç Bağımsızlığı Testi: Sistem, dış ortamlarda veya elektrik kesintisi yaşanabilecek alanlarda da kesintisiz çalışabilmesi amacıyla harici batarya veya güneş paneli gibi alternatif güç kaynaklarıyla test edilecektir. Bu test, projenin daha sonraki aşamalarında gerçekleştirilecek olup uzun süreli çalışabilirlik ve enerji verimliliği açısından değerlendirme yapılacaktır.
+Güç Bağımsızlığı Testi: Sistem, dış ortamlarda veya elektrik kesintisi yaşanabilecek alanlarda da kesintisiz çalışabilmesi amacıyla harici batarya gibi alternatif güç kaynaklarıyla test edilecektir. Bu test, projenin daha sonraki aşamalarında gerçekleştirilecek olup uzun süreli çalışabilirlik ve enerji verimliliği açısından değerlendirme yapılacaktır.
 
