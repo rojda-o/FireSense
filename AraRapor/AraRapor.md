@@ -46,12 +46,10 @@ Projenin bu aşamasına kadar aşağıdaki yöntem ve teknolojiler kullanılmı�
 ## 6. Karşılaşılan Sorunlar ve Çözümler
 | Sorun | Çözüm |
 |-------------------------------|--------------------------------------------------------------|
-| Sensörün doğru algılamama durumları | Sensörün konumlandırılması ve ortam ışığı etkileri test edilerek düzenlendi. |
 | ESP8266 bağlantı sorunları | Arduino IDE’ye uygun kütüphaneler eklendi, bağlantı parametreleri gözden geçirildi. |
 
 ## 7. Projenin Devamında Yapılacaklar
 - ESP8266 üzerinden Telegram botuna başarılı şekilde bildirim gönderilmesi sağlanacak.
-- Proje kutulanarak taşınabilir hale getirilecek.
 - Tüm bileşenler optimize edilerek nihai rapor ve sunum hazırlanacak.
 - Güç kaynağı ile bağımsız çalışabilirlik, ilerleyen aşamalarda harici batarya kullanılarak test edilecektir.
 
