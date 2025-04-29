@@ -24,7 +24,7 @@ Projenin bu aşamasına kadar aşağıdaki yöntem ve teknolojiler kullanılmı�
 
 ### Metodolojik Yaklaşımlar:
 - **Modüler Tasarım:** Sistem, fiziksel ve dijital uyarı bölümleri olarak iki ana modüle ayrılmıştır. Böylece her bir bölüm bağımsız olarak test edilebilmiş ve hatalar kolaylıkla izole edilmiştir.
-- **Test ve Doğrulama:** IR sensörün doğruluğu çeşitli ışık koşullarında test edilmiştir. Fiziksel uyarılar ayrı ayrı doğrulanarak sistemin güvenilirliği artırılmıştır.
+- **Test ve Doğrulama:** IR sensörün doğruluğu çeşitli koşullarda test edilmiştir. Fiziksel uyarılar ayrı ayrı doğrulanarak sistemin güvenilirliği artırılmıştır.
 - **Adım Adım Geliştirme:** Proje, önce fiziksel devre kurulumu ve testleri ile başlatılmış, ardından yazılım geliştirme ve entegrasyon aşamalarına geçilmiştir. Bu yöntem, hata ayıklamayı kolaylaştırmıştır.
 
 
@@ -34,7 +34,8 @@ Projenin bu aşamasına kadar aşağıdaki yöntem ve teknolojiler kullanılmı�
 - Arduino kodları yazılarak alev algılandığında LED ve buzzer’ın çalışması sağlandı.
 - Proje devresi başarıyla test edildi.
   
-![Devre Görseli](Figure/devre_foto1.jpg)
+
+<img src="Figures/devre.jpeg" alt="Devre Görseli" width="400" height="450">
 > Şekil 1: Kurulan IR sensörlü erken uyarı sistemi devresi.
 
 ## 5. Elde Edilen Sonuçlar
@@ -45,14 +46,12 @@ Projenin bu aşamasına kadar aşağıdaki yöntem ve teknolojiler kullanılmı�
 ## 6. Karşılaşılan Sorunlar ve Çözümler
 | Sorun | Çözüm |
 |-------------------------------|--------------------------------------------------------------|
-| Sensörün doğru algılamama durumları | Sensörün konumlandırılması ve ortam ışığı etkileri test edilerek düzenlendi. |
 | ESP8266 bağlantı sorunları | Arduino IDE’ye uygun kütüphaneler eklendi, bağlantı parametreleri gözden geçirildi. |
 
 ## 7. Projenin Devamında Yapılacaklar
 - ESP8266 üzerinden Telegram botuna başarılı şekilde bildirim gönderilmesi sağlanacak.
-- Proje kutulanarak taşınabilir hale getirilecek.
 - Tüm bileşenler optimize edilerek nihai rapor ve sunum hazırlanacak.
-- Güç kaynağı bağımsız çalışabilirlik, ilerleyen aşamalarda harici batarya kullanılarak test edilecektir.
+- Güç kaynağı ile bağımsız çalışabilirlik, ilerleyen aşamalarda harici batarya kullanılarak test edilecektir.
 
-Güç Bağımsızlığı Testi: Sistem, dış ortamlarda veya elektrik kesintisi yaşanabilecek alanlarda da kesintisiz çalışabilmesi amacıyla harici batarya veya güneş paneli gibi alternatif güç kaynaklarıyla test edilecektir. Bu test, projenin daha sonraki aşamalarında gerçekleştirilecek olup uzun süreli çalışabilirlik ve enerji verimliliği açısından değerlendirme yapılacaktır.
+Güç Bağımsızlığı Testi: Sistem, dış ortamlarda veya elektrik kesintisi yaşanabilecek alanlarda da kesintisiz çalışabilmesi amacıyla harici batarya gibi alternatif güç kaynaklarıyla test edilecektir. Bu test, projenin daha sonraki aşamalarında gerçekleştirilecek olup uzun süreli çalışabilirlik ve enerji verimliliği açısından değerlendirme yapılacaktır.
 

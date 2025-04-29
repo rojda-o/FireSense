@@ -25,7 +25,6 @@ Projeyi çalıştırmak için aşağıdaki bileşenlere ihtiyaç vardır:
 - **Breadboard**
 - **Arduino IDE**
 - **USB Kablo (ESP8266'yı programlamak için)**
-<img src="OneriRapor/Figures/devre2.jpeg" width="500" height="300">
 
 ## 4. Projeyi Çalıştırma 
 1. Arduino IDE'yi açın ve ESP8266 için uygun kütüphaneleri yükleyin.
