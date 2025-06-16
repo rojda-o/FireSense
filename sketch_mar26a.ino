@@ -3,17 +3,17 @@
 #include <UniversalTelegramBot.h>
 
 // WiFi bilgileri
-const char* ssid = "Rojda";
-const char* password = "merhaba65";
+const char* ssid = "";
+const char* password = "";
 
 // Telegram bilgileri
-#define BOT_TOKEN "8161939229:AAFD3ejUUPPLM1ZPTjXlIu-VOOkJqnKXK7c"  // BotFather'dan alınan token
-#define CHAT_ID "1449284657"               // Kendi kullanıcı ID'niz
+#define BOT_TOKEN ""  // BotFather'dan alınan token
+#define CHAT_ID ""   // Kendi kullanıcı ID'niz
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOT_TOKEN, client);
 
-int led = D0;            // Blue LED pin
+int led = D0;            // LED pin
 int buzzer = D1;         // Buzzer pin
 int digitalPin = D2;     // IR digital interface
 int analogPin = A0;      // IR analog interface
