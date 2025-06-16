@@ -31,8 +31,8 @@ Proje iki temel bileşen üzerine kuruludur: fiziksel uyarı sistemi ve dijital 
 - Alev algılandığında sistemin hem fiziksel hem de dijital olarak uyarı vermesi sağlandı.
 - Alevin süresine göre mesaj gönderme mantığı yazılımla geliştirildi.
 
-![Devre Görseli](Figure/devre.jpeg)
-> Şekil 1: IR sensörlü erken uyarı sisteminin breadboard üzerinde kurulmuş hali.
+![Devre Görseli](Figure/devre.jpg)
+> Şekil 1: IR sensörlü erken uyarı sisteminin breadboard üzerinde kurulmuş hali ve telegram bildirimi.
 
 ## 5. Elde Edilen Sonuçlar
 
